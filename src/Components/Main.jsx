@@ -17,6 +17,7 @@ function Main() {
   const [wicon,setWicon]=useState(clear_icon);
       
   const display =async()=>{
+    // diplay weather of kochi when loading the page
     const base_url=`https://api.openweathermap.org/data/2.5/weather?q=kochi&units=Metric&appid=${api_key}`
     const response = await fetch(base_url);// fecth url
       const data = await response.json();
