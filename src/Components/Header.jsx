@@ -18,7 +18,7 @@ function Header() {
               alt=''
               loading='lazy'
             />
-            <h2 className="text-light ms-3 mt-3">Wheather App</h2>
+            <h2 className="text-light ms-3 mt-3">Weather App</h2>
           </MDBNavbarBrand>
         </MDBContainer>
       </MDBNavbar>
